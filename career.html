@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/scroll_nav.css">
+</head>
+
+<body>
+    <header id="navBar">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light w-100">
+                    <a class="navbar-brand" href="index.html"><img
+                            src="img/logo.png" width="50" height="40" alt="" style="filter: invert();">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="ToggleNavigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link fw-bold me-4" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link fw-bold me-4" href="project.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link fw-bold me-4 active" href="career.html">Career</a></li>
+                            <li class="nav-item"><a class="nav-link fw-bold me-4" href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link fw-bold me-4" href="about.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link fw-bold" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+    </header>
+    <div class="career d-flex" id="career">
+        <div class="career-left d-flex align-items-center justify-content-center flex-column w-75">
+            <div class="fw-bolder fa-5x">Career</div>
+            <div class="fw-bold fa-2x">"Hey There! Here are some blogs for you"</div>
+        </div>
+        <div class="career-right d-flex justify-content-center flex-column mx-5 align-items-center">
+            <h2 class="">Our open positions</h2>
+            <h6 class="">"Learn | Experience | Grow"</h6>
+            <p class="text-center fst-italic">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                similique. Nisi commodi nam facilis illum. Enim animi magni at fugiat unde ipsa modi cupiditate."</p>
+            <div class="mt-3 w-75 bg-warning p-3 rounded-2">
+                <div class="list-unstyled fw-bolder d-flex justify-content-between align-items-center mb-3">
+                    <div>Sales Representative:</div><button class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1">Apply</button>
+                </div>
+                <div class="list-unstyled fw-bolder d-flex justify-content-between align-items-center mb-3">
+                    <div>Marketing Manager:</div><button class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2">Apply</button>
+                </div>
+                <div class="list-unstyled fw-bolder d-flex justify-content-between align-items-center">
+                    <div>Commercial Artist:</div><button class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3">Apply</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 1-->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sales Representative</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="">
+                            <h5 class="bg-warning p-2 me-3 text-center">Job Application</h5>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Full Name">
+                                <label for="floatingInput">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email Id">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="tel" class="form-control" id="floatingNumber" placeholder="Contact Number">
+                                <label for="floatingNumber">Contact Number</label>
+                            </div>
+                            <div class="form">
+                                <label class="mb-2" for="file">Upload Your Resume/CV <b>(.pdf)</b></label>
+                                <input type="file" accept="application/pdf" id="myFile" name="filename">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-warning w-100" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Marketing Manager</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="">
+                            <h5 class="bg-warning p-2 me-3 text-center">Job Application</h5>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Full Name">
+                                <label for="floatingInput">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email Id">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="tel" class="form-control" id="floatingNumber" placeholder="Contact Number">
+                                <label for="floatingNumber">Contact Number</label>
+                            </div>
+                            <div class="form">
+                                <label class="mb-2" for="file">Upload Your Resume/CV <b>(.pdf)</b></label>
+                                <input type="file" accept="application/pdf" id="myFile" name="filename">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-warning w-100" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Commercial Artist</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="">
+                            <h5 class="bg-warning p-2 me-3 text-center">Job Application</h5>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Full Name">
+                                <label for="floatingInput">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email Id">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3 me-3">
+                                <input type="tel" class="form-control" id="floatingNumber" placeholder="Contact Number">
+                                <label for="floatingNumber">Contact Number</label>
+                            </div>
+                            <div class="form">
+                                <label class="mb-2" for="file">Upload Your Resume/CV <b>(.pdf)</b></label>
+                                <input type="file" accept="application/pdf" id="myFile" name="filename">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-warning w-100" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional JS -->
+    <script type="text/javascript" src="js/scroll_nav.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/all.min.js"></script>
+</body>
+
+</html>
